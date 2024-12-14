@@ -18,7 +18,6 @@ public class Processo {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -26,7 +25,6 @@ public class Processo {
     public int getTempoChegada() {
         return tempoChegada;
     }
-
     public void setTempoChegada(int tempoChegada) {
         this.tempoChegada = tempoChegada;
     }
@@ -34,7 +32,6 @@ public class Processo {
     public int getTempoExecucao() {
         return tempoExecucao;
     }
-
     public void setTempoExecucao(int tempoExecucao) {
         this.tempoExecucao = tempoExecucao;
     }
@@ -42,7 +39,6 @@ public class Processo {
     public int getTempoConclusao() {
         return tempoConclusao;
     }
-
     public void setTempoConclusao(int tempoConclusao) {
         this.tempoConclusao = tempoConclusao;
     }
@@ -50,7 +46,6 @@ public class Processo {
     public int getTempoEspera() {
         return tempoEspera;
     }
-
     public void setTempoEspera(int tempoEspera) {
         this.tempoEspera = tempoEspera;
     }
@@ -58,7 +53,6 @@ public class Processo {
     public int getTempoInicio() {
         return tempoInicio;
     }
-
     public void setTempoInicio(int tempoInicio) {
         this.tempoInicio = tempoInicio;
     }
@@ -66,7 +60,6 @@ public class Processo {
     public int getTempoTurnArround() {
         return tempoTurnArround;
     }
-
     public void setTempoTurnArround(int tempoTurnArround) {
         this.tempoTurnArround = tempoTurnArround;
     }
@@ -74,7 +67,6 @@ public class Processo {
     public int getTempoInterrupcao(){
       return tempoInterrupcao;
     }
-
     public void setTempoInterrupcao(int tempoInterrupcao){
         this.tempoInterrupcao = tempoInterrupcao;
     }
