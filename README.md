@@ -10,7 +10,7 @@ Além do algoritmo de escalonamento, o projeto também conta com uma interface g
 ## 💻 Desenvolvido por:
 
 - Ana Carolina Araújo Lima;
-- Ana Clara;
+- Ana Clara de Sousa Farias;
 - Clara de Lima Adriano;
 - Maria Chrystina Lima Silva;
 - Pedro Henrique Maciel de Sousa.
