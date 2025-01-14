@@ -6,7 +6,7 @@ import java.util.Random;
 public class EscalonadorSJF {
 
     private int quantMinProcessos = 2;
-    private int quantMaxProcessos = 1000;
+    private int quantMaxProcessos = 100;
     private int quantTotalProcessos;
     private List<Processo> processos;
     
