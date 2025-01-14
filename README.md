@@ -17,9 +17,9 @@ Além do algoritmo de escalonamento, o projeto também conta com uma interface g
 
 Ambos estudantes do 4° semestre no curso de Ciência da Computação do Instituto Federal de Educação, Ciência e Tecnologia do Ceará, _campus_ Iguatu. 🤓
 
-## 🐗 Linguagem Utilizada
+## 🚀 Linguagem Utilizada
 
-Todo o projeto foi desenvolvido utilizando a linguagem de programação Java. 🚀
+Todo o projeto foi desenvolvido utilizando a linguagem de programação Java.
 
 ## 🗂 Estrutura do Projeto
 
