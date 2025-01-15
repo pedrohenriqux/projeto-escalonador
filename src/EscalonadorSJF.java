@@ -37,19 +37,12 @@ public class EscalonadorSJF {
   
     public void ordenarProcessos(){
         Random gerador = new Random();
-        //this.processos = new ArrayList<>();
         
         //O método nextInt(n) gera um número entre 0 e n-1
         //Aqui é add 1 para que o valor vá até o máximo 
         setQuantTotalProcessos(gerador.nextInt(getQuantMaxProcessos() - getQuantMinProcessos() + 1 + getQuantMinProcessos()));
 
         for(int i = 1; i <= getQuantTotalProcessos(); i++) {
-      
-            /*setId(i);
-            setTempoChegada(gerador.nextInt(10) + 1); 
-            setTempoExecucao(gerador.nextInt(30)); */
-            
-            
             //processos.add(new Processo(getId(), getTempoChegada(), getTempoExecucao()));
             processos.add(new Processo(i, gerador.nextInt(10)+1, gerador.nextInt(10) + 1));
              
@@ -61,13 +54,13 @@ public class EscalonadorSJF {
             int tempoAtual = 0;
             for(Processo processoAtual : processos) {
                 processoAtual.setTempoInicio(Math.max(processoAtual.getTempoChegada(), tempoAtual));
+                
                 processoAtual.setTempoInterrupcao(gerador.nextInt(4));
-
+                
                 processoAtual.setTempoConclusao(processoAtual.getTempoInicio() + processoAtual.getTempoExecucao() + processoAtual.getTempoInterrupcao());
                 processoAtual.setTempoEspera(processoAtual.getTempoInicio() - processoAtual.getTempoChegada());
                 processoAtual.setTempoTurnArround(processoAtual.getTempoConclusao() - processoAtual.getTempoChegada());
                     
-                
                 //garante que o atual só execute quando o anterior terminar
                 tempoAtual = processoAtual.getTempoConclusao();
 
